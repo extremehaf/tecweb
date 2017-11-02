@@ -5,7 +5,7 @@ var app = express();
 var mongoxlsx = require('mongo-xlsx');
 var mongoose = require('mongoose');
 //url do baco de dados remoto.
-const url = "mongodb://me:1234@ds149724.mlab.com:49724/my_data_base";
+const url = "mongodb://sati2017:ti201702@mongo_ti2017:27017/ti2017";
 //criando a conexão com o banco de dados.
 mongoose.connect(url);
 

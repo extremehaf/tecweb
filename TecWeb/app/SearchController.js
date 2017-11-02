@@ -2,7 +2,7 @@ angular.module('app')
 .controller('SearchController', ['$scope', 'NgMap', 'GeoCoder', function($scope, NgMap, GeoCoder){
     var listaPostos = [];
     //url base do servidor.
-    const urlBase = "http://localhost:3000/";
+    const urlBase = "http://ti2017tecweb-com-br.umbler.net/";
     //inicializando os combo box.
     $scope.regiaoSelecionada = $scope.postoSelecionado = "0";
     $scope.Regioes = [{cod: 1, nome: "Barreiro"}, {cod: 2, nome: "Centro-Sul"},{cod: 3, nome: "Leste"}, 
