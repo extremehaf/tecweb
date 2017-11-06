@@ -51,7 +51,7 @@ angular.module('app')
                     regiao =  $scope.Regioes[i].nome;
                 }
             }
-            httpGet(urlBase+"Regiao/" + regiao.toUpperCase().replace("-",""),function(res){
+            httpGetAsync(urlBase+"Regiao/" + regiao.toUpperCase().replace("-",""),function(res){
                 $scope.Postos = JSON.parse(res);
             }) 
         }      
