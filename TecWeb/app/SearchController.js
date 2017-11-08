@@ -6,7 +6,7 @@ angular.module('app')
     //inicializando os combo box.
     $scope.regiaoSelecionada = $scope.postoSelecionado = "0";
     $scope.Regioes = [{cod: 1, nome: "Barreiro"}, {cod: 2, nome: "Centro-Sul"},{cod: 3, nome: "Leste"}, 
-                        {cod: 4, nome: "Norte"},{cod: 5, nome: "Nordeste"},{cod: 6, nome: "Norte"},
+                        {cod: 4, nome: "Nordeste"},{cod: 5, nome: "Noroeste"},{cod: 6, nome: "Norte"},
                         {cod: 7, nome: "Oeste"},{cod: 8, nome: "Pampulha"},{cod: 9, nome: "Venda Nova"}];
     $scope.Postos = [];
     //deixando mapa escondido
