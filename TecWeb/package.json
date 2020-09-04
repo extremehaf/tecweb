@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "^4.15.4",
     "mongo-xlsx": "^1.0.12",
-    "mongodb": "^2.2.31",
+    "mongodb": "^3.6.1",
     "ngmap": "^1.18.4"
   },
   "devDependencies": {},
